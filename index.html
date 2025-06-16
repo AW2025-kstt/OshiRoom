@@ -1,47 +1,76 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oshi♡Room</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap" rel="stylesheet">
-
+  <meta charset="utf-8">
+  <title>1カラムレイアウトパターン７</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico">
 </head>
+
 <body>
-    <div id="containar">
-    <div id="header">
-        <h1 class="h1">Oshi♡Room</h1>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">トップ</a></li>
-                <li><a href="menu.html" target="_blank">メニュー</a></li>
-                <li><a href="yoyaku.html" target="_blank">予約・お願い</a></li>
-                <li><a href="akusesu.html" target="_blank">アクセス・お知らせ</a></li>
-            </ul>
-        </div>
-        <img src="ケーキ素材/1-33.jpg" width="100%">
+  <div id="header" style="display: flex;">
+    <img src="logo.svg" width="100px" style="margin-left: 125px;">
+    <p style="margin-left: 800px;">About</p>
+    <p style="margin-left: 50px;">Bicycle</p>
+  </div>
+
+  <div id="main">
+
+    <div id="mainvisual">
+      <img src="mainvisual.jpg" class="a">
     </div>
 
-    <div id="main">
-        <img id="a" src="tennai.png">
-        <h3>Oshi♡Roomへようこそ！</h3>
-        <p>ここは原宿にあるかわいいをテーマにつくられた<br>
-           "推し事"をたのしくできる推し活専門カフェです。<br>
-           当店人気No.1メニューメンカラケーキは一からパティシエと作り上げており、<br>
-           味・見た目ともに本格的な仕上がりとなっています。<br>
-           使用する素材にもこだわり、生クリームや小麦粉、チョコレートも厳選した素材を使用。<br>
-           また、店内・外観ともにすべてパステルカラーをベースにかわいらしい印象に仕上げております。<br>
-           推し活に最適なゆめかわ空間とこだわりのcafeメニューをお楽しみください。<br>
-           みなさまのご来店をスタッフ一同、心よりお待ちしております。</p>
-        <br style="clear: both;">
-    </div>
-    </div>
-    <footer class="adr">
-        <p>&#12342;150-0001</p>
-        <p>東京都渋谷区神宮前1丁目58竹下通り</p>
-    </footer>
+    <section id="about">
+      <h1 class="b">About</h1>
+
+      <div style="margin: 100px 0px 0px 450px;">
+        <div id="a">
+          <img src="about.jpg" style="border-radius: 500px;" width="200px">
+        </div>
+
+        <div id="b">
+          <p class="c">AAAAAAAAAA</p>
+          <p>テキストテキストテキストテキスト<br>
+            テキストテキストテキストテキスト<br>
+            テキストテキストテキストテキスト</p>
+        </div>
+      </div>
+    </section>
+
+    <br style="clear: both;">
+
+    <section id="bicycle">
+      <h1 class="b">Bicycle</h1>
+
+      <div style="margin: 100px 0px 0px 400px;">
+        <div style="float: left;">
+          <img src="bicycle1.jpg" class="d">
+          <h4>タイトルタイトルタイトル</h4>
+          <p class="e">テキストテキストテキスト</p>
+        </div>
+
+        <div style="float: left;">
+          <img src="bicycle2.jpg" class="d">
+          <h4>タイトルタイトルタイトル</h4>
+          <p class="e">テキストテキストテキスト</p>
+        </div>
+
+        <div style="float: left;">
+          <img src="bicycle3.jpg" class="d">
+          <h4>タイトルタイトルタイトル</h4>
+          <p class="e">テキストテキストテキスト</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <br style="clear: both;">
+
+  <footer style="margin: 100px 0px 0px 640px;">
+    <p>AAAAA AAAAA</p>
+  </footer>
 </body>
+
 </html>
